@@ -16,7 +16,7 @@ import {
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { IconBrandFacebook, IconMail } from "@tabler/icons-react";
-import Lvlogowhitebg from "../assets/lvlogowhitebg.png";
+import Lvlogowhitebg from "../assets/Lvlogowhitebg.png";
 import Banner1 from "../assets/banner1.png";
 import bgfooter from "../assets/bgfooter.png";
 import Lvherald from "../assets/lvherald.png";
