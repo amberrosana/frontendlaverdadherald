@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import LandingPage from "./pages/LandingPage.jsx";
 import Login from './components/Login.jsx';
 import RegisterPage from './pages/RegisterPage.jsx';
-import Dashboard from './Pages/Dashboard.jsx';
+import Dashboard from './pages/Dashboard.jsx';
 import Opinion from './nav-header/Opinion.jsx';
 import Literary from './nav-header/Literary.jsx';
 import News from './nav-header/News.jsx';
@@ -17,7 +17,7 @@ import Feature from './nav-header/Feature.jsx';
 import Sports from './nav-header/Sports.jsx';
 import About from './nav-header/About.jsx';
 import UserProfile from './pages/UserProfile.jsx';
-import SearchPage from './pages/SearchPage';
+import SearchPage from './pages/SearchPage.jsx';
 import SingleArticlePage from "./pages/SingleArticlePage.jsx";
 
 
