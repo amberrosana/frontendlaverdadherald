@@ -3,7 +3,7 @@ import { MantineProvider } from '@mantine/core';
 import "@mantine/core/styles.css";
 import { AnimatePresence, motion } from "framer-motion";
 
-import Dashboard from './pages/Dashboard.jsx';
+// import Dashboard from './pages/Dashboard.jsx';
 import LandingPage from "./pages/LandingPage.jsx";
 import Login from './components/Login.jsx';
 import RegisterPage from './pages/RegisterPage.jsx';
