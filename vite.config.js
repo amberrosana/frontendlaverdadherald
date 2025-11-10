@@ -5,13 +5,11 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  resolve: {
-    preserveSymlinks: true
-  },
   build: {
     rollupOptions: {
-      output: {
-        manualChunks: undefined
+      onwarn(warning, warn) {
+        if (warning.code === 'CASE_MISMATCH') return
+        warn(warning)
       }
     }
   }
