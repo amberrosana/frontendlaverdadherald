@@ -6,7 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import LandingPage from "./pages/LandingPage";
 import Login from './components/Login.jsx';
 import RegisterPage from './pages/RegisterPage.jsx';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './pages/Dashboard.jsx';
 import Opinion from './nav-header/Opinion.jsx';
 import Literary from './nav-header/Literary.jsx';
 import News from './nav-header/News.jsx';
