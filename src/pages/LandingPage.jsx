@@ -17,7 +17,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Banner1 from "../assets/banner1.png";
 import Footer from "../components/Footer.jsx";
-import { articles } from "../data/Articles";
+import { articles } from "../data/Articles.js";
 
 export default function LandingPage() {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 // src/pages/SingleArticlePage.jsx
 import { useParams } from "react-router-dom";
-import { mainArticle, otherArticles } from "../data/Articles";
+import { mainArticle, otherArticles } from "../data/Articles.js";
 import { Box, Container, Title, Text, Image, Badge, Group } from "@mantine/core";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";

@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 import { IconCalendar } from "@tabler/icons-react";
 import Header from "../components/Header.jsx";
 import Footer from "../components/Footer.jsx";
-import { otherArticles } from "../data/Articles"; // otherArticles = 2 side cards
+import { otherArticles } from "../data/Articles.js"; // otherArticles = 2 side cards
 import mainImage from "../assets/ImageHolder1.png"; // your main large image
 
 export default function Dashboard() {
