@@ -15,7 +15,7 @@ import {
 } from "@mantine/core";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Banner1 from "../assets/banner1.png";
+import Banner1 from "../assets/Banner1.png";
 import Footer from "../components/Footer.jsx";
 import { articles } from "../data/Articles.js";
 
