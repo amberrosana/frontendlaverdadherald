@@ -19,6 +19,7 @@ import Banner1 from "../assets/Banner1.png";
 import Footer from "../components/Footer.jsx";
 import { articles } from "../data/Articles.js";
 
+
 export default function LandingPage() {
   const navigate = useNavigate();
   const [loggedIn, setLoggedIn] = useState(false);
