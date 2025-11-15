@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Modal, TextInput, PasswordInput, Button, Group, Stack } from "@mantine/core";
 import axios from "axios";
+import { Modal, TextInput, PasswordInput, Button, Group, Stack } from "@mantine/core";
 
 export default function LoginPage() {
   const [opened, setOpened] = useState(true); // modal opens by default
